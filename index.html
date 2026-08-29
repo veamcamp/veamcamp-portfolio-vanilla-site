@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Glenn Lee — Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">Glenn Lee</a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="controls">
+        <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <h1 class="reveal">Hi, I'm <span class="name">Glenn Lee</span></h1>
+          <p class="sub reveal">Frontend engineer crafting accessible, performant interfaces with a focus on micro-interactions.</p>
+          <p class="reveal"><a class="cta" href="#projects">View Projects</a></p>
+        </div>
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="pancake"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">About</h2>
+        <p class="reveal">I build web experiences using HTML, CSS, and JavaScript. I enjoy turning complex problems into simple, intuitive interfaces and adding subtle motion to improve clarity and delight.</p>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container">
+        <h2 class="section-title reveal">Skills</h2>
+        <ul class="skills-grid">
+          <li class="reveal">HTML &amp; Semantic Markup</li>
+          <li class="reveal">Responsive CSS (Flex & Grid)</li>
+          <li class="reveal">Vanilla JS & DOM</li>
+          <li class="reveal">Performance & Accessibility</li>
+          <li class="reveal">Design Systems & Tokens</li>
+          <li class="reveal">Animations & Micro-interactions</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <h3>Animated Landing</h3>
+            <p>Interactive hero with scroll-triggered animations and performant CSS transitions.</p>
+            <a href="#" class="link">Live →</a>
+          </article>
+
+          <article class="project-card reveal">
+            <h3>Design System</h3>
+            <p>Component library with tokens, accessible patterns, and dark-mode support.</p>
+            <a href="#" class="link">Repo →</a>
+          </article>
+
+          <article class="project-card reveal">
+            <h3>Micro-interactions</h3>
+            <p>Small JS utilities for delightful interactions that respect reduced-motion.</p>
+            <a href="#" class="link">Read →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container">
+        <h2 class="section-title reveal">Contact</h2>
+        <p class="reveal">Email: <a href="mailto:hello@example.com">hello@example.com</a></p>
+        <p class="reveal">Or find me on <a href="#">GitHub</a> / <a href="#">LinkedIn</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© <span id="year"></span> Glenn Lee — Built with vanilla HTML/CSS/JS</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
